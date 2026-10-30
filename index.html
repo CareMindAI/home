@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light only">
   <title>CareMind AI — Intelligent Elderly Care</title>
   <meta name="description" content="CareMind AI turns one photo of a handwritten prescription into daily medicine reminders for elderly people in Bangladesh — and lets their families see every dose.">
   <meta name="theme-color" content="#1F6B57">
@@ -12,8 +13,8 @@
   <meta property="og:description" content="One photo of the prescription becomes daily reminders, and the family sees every dose. An AIUB project for Bangladesh AI Business Summit 2026.">
   <meta property="og:url" content="https://caremindai.github.io/home/">
   <meta property="og:image" content="https://caremindai.github.io/home/assets/img/og-image.jpg">
-  <link rel="canonical" href="https://caremindai.github.io/home/">
   <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://caremindai.github.io/home/">
 
   <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
   <link rel="apple-touch-icon" href="assets/img/logo-full.webp">
@@ -36,10 +37,10 @@
       </a>
       <nav class="nav__links" id="navLinks" aria-label="Main">
         <a href="#problem">Problem</a>
-        <a href="#solution">Solution</a>
+        <a href="#how">How it works</a>
         <a href="#app">App</a>
-        <a href="#market">Market</a>
-        <a href="#roadmap">Roadmap</a>
+        <a href="#why">Why us</a>
+        <a href="#plan">Plan</a>
         <a href="#team">Team</a>
         <a href="#download" class="btn btn--sm btn--primary nav__cta">Download</a>
       </nav>
@@ -57,8 +58,8 @@
         <div class="hero__copy">
           <p class="eyebrow eyebrow--pill">Bangladesh AI Business Summit 2026 · AIUB</p>
           <h1>The right medicine,<br>at the right time —<br><span class="hl">and the family knows.</span></h1>
-          <p class="lead">CareMind AI turns <strong>one photo of a handwritten prescription</strong> into a daily reminder schedule for elderly people, so no dose is guessed, doubled or missed.</p>
-          <p class="bn">কোনো ডোজ আর মিস হবে না।</p>
+          <p class="lead">Take <strong>one photo</strong> of a doctor's handwritten prescription. CareMind AI reads it and <strong>reminds elderly people</strong> when to take each medicine — so no dose is missed or taken twice.</p>
+          <p class="bn">একটি ছবি তুলুন — কোনো ডোজ আর মিস হবে না।</p>
           <div class="hero__actions">
             <a href="#download" class="btn btn--primary">
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M5 21h14"/></svg>
@@ -66,18 +67,13 @@
             </a>
             <a href="#how" class="btn btn--ghost">See how it works</a>
           </div>
-          <ul class="hero__facts">
-            <li><b>7 of 11</b><span>planned capabilities already work</span></li>
-            <li><b>Bangla</b><span>first interface</span></li>
-            <li><b>Android · iOS · Web</b><span>working prototypes</span></li>
-          </ul>
         </div>
         <div class="hero__visual" aria-hidden="true">
           <div class="blob"></div>
           <div class="phone phone--back"><img src="assets/img/screens/scan.webp" alt="" loading="eager"></div>
           <div class="phone phone--front"><img src="assets/img/screens/onboard-reminders.webp" alt="" loading="eager"></div>
           <div class="float-card float-card--a">
-            <span class="dot dot--ok"></span> 8:00 AM · Morning dose <em>Taken</em>
+            <span class="dot"></span> 8:00 AM · Morning dose <em>Taken</em>
           </div>
           <div class="float-card float-card--b">
             <svg viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8m13 10v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
@@ -85,104 +81,136 @@
           </div>
         </div>
       </div>
+
+      <!-- 30-second summary -->
+      <div class="container">
+        <div class="summary">
+          <article class="summary__card summary__card--problem reveal">
+            <span class="summary__ic"><svg viewBox="0 0 24 24"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3M12 9v4M12 17h.01"/></svg></span>
+            <p class="summary__label">The problem</p>
+            <h2>Elders miss or double their medicine</h2>
+            <p>Handwritten prescriptions are hard to read. Elderly patients guess, forget, or take a dose twice — and their family cannot see it.</p>
+            <p class="bn bn--sm">হাতের লেখা প্রেসক্রিপশন বোঝা কঠিন, তাই বয়স্করা ওষুধ ভুল খান বা খেতে ভুলে যান।</p>
+          </article>
+          <article class="summary__card summary__card--solution reveal">
+            <span class="summary__ic"><svg viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg></span>
+            <p class="summary__label">Our solution</p>
+            <h2>One photo becomes daily reminders</h2>
+            <p>AI reads the prescription from a photo and builds a reminder schedule. Soon, the family will see every dose taken or missed.</p>
+            <p class="bn bn--sm">প্রেসক্রিপশনের একটি ছবি থেকেই তৈরি হয় প্রতিদিনের ওষুধের রিমাইন্ডার।</p>
+          </article>
+          <article class="summary__card summary__card--proof reveal">
+            <span class="summary__ic"><svg viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4 12 14.01l-3-3"/></svg></span>
+            <p class="summary__label">Proof</p>
+            <h2>It already works</h2>
+            <p>A working Android app: <strong>7 of 11</strong> planned features are done, including reading handwritten prescriptions.</p>
+            <p class="bn bn--sm">অ্যাপটি এখনই কাজ করছে — ১১টি ফিচারের ৭টি তৈরি।</p>
+          </article>
+        </div>
+      </div>
     </section>
 
     <!-- ============ PROBLEM ============ -->
-    <section class="section" id="problem">
+    <section class="section section--tint" id="problem">
       <div class="container">
         <header class="section__head">
-          <p class="eyebrow">The problem in numbers</p>
-          <h2>A common, hidden problem — <span class="hl">and the phone to fix it is already in the house.</span></h2>
-          <p class="section__lead">Elderly patients guess, double or miss doses from handwritten prescriptions, and their families find out too late.</p>
+          <p class="eyebrow">1 · The problem</p>
+          <h2>Missing medicine is common — <span class="hl">and nobody notices.</span></h2>
+          <p class="bn bn--head">সমস্যাটা কোথায়?</p>
+          <p class="section__lead">Here are the facts, in simple numbers.</p>
         </header>
 
-        <div class="problem-grid">
-          <article class="card card--warn reveal">
-            <p class="card__label card__label--warn">The problem</p>
+        <div class="facts">
+          <article class="fact reveal">
             <div class="people" aria-hidden="true">
               <i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i>
             </div>
             <p class="big big--warn">1 in 2</p>
-            <p>patients with long-term illness do not take their medicine as prescribed, even in rich countries. WHO says it is <strong>even lower in developing countries.</strong></p>
-            <p class="src">Source: <a href="https://www.who.int/news/item/01-07-2003-failure-to-take-prescribed-medicine-for-chronic-diseases-is-a-massive-world-wide-problem" target="_blank" rel="noopener">WHO, Adherence to Long-Term Therapies</a></p>
-            <div class="split">
-              <div>
-                <p class="big big--warn big--sm">1.53 crore</p>
-                <p>Bangladeshis aged 65+, the group most likely to take several medicines.</p>
-                <p class="src"><a href="https://www.tbsnews.net/node/506314" target="_blank" rel="noopener">Census 2022, via TBS</a></p>
-              </div>
-              <div>
-                <p class="big big--warn big--sm">Handwritten</p>
-                <p>prescriptions are still the norm, and hard for patients to read.</p>
-                <p class="src"><a href="https://ar.iub.edu.bd/handle/11348/983" target="_blank" rel="noopener">IUB, PresCa study</a></p>
-              </div>
-            </div>
+            <p class="fact__text">long-term patients <strong>do not take medicine as prescribed</strong>. It is even worse in developing countries.</p>
+            <p class="src">Source: <a href="https://www.who.int/news/item/01-07-2003-failure-to-take-prescribed-medicine-for-chronic-diseases-is-a-massive-world-wide-problem" target="_blank" rel="noopener">WHO</a></p>
           </article>
-
-          <article class="card card--ok reveal">
-            <p class="card__label">The opportunity</p>
-            <div class="bar-stat">
-              <p class="big big--sm">89.6%</p>
-              <div class="bar"><span style="--w:89.6%"></span></div>
-              <p>of people use a mobile phone</p>
-            </div>
-            <div class="bar-stat">
-              <p class="big big--sm">75.1%</p>
-              <div class="bar"><span style="--w:75.1%"></span></div>
-              <p>of households have a smartphone</p>
-            </div>
-            <div class="bar-stat">
-              <p class="big big--sm big--amber">58.2%</p>
-              <div class="bar bar--amber"><span style="--w:58.2%"></span></div>
-              <p>of households have internet, so we add <strong>SMS and voice-call reminders</strong></p>
-            </div>
-            <p class="src">Source: <a href="https://unb.com.bd/category/Bangladesh/mobile-phone-ownership-rises-bbs/195830" target="_blank" rel="noopener">BBS via UNB</a> · Elders are going digital: <a href="https://www.dhakatribune.com/business/343401/senior-citizens-in-bangladesh-are-embracing" target="_blank" rel="noopener">Dhaka Tribune</a>, <a href="https://www.samenacouncil.org/samena_daily_news?news=90201" target="_blank" rel="noopener">SAMENA</a></p>
+          <article class="fact reveal">
+            <span class="fact__ic"><svg viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8m13 10v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
+            <p class="big big--warn">1.53 crore</p>
+            <p class="fact__text">Bangladeshis are <strong>aged 65 or older</strong> — the people most likely to take many medicines.</p>
+            <p class="src">Source: <a href="https://www.tbsnews.net/node/506314" target="_blank" rel="noopener">Census 2022, via TBS</a></p>
+          </article>
+          <article class="fact reveal">
+            <span class="fact__ic"><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg></span>
+            <p class="big big--warn">Handwritten</p>
+            <p class="fact__text">prescriptions are still normal in Bangladesh, and <strong>hard for patients to read</strong>.</p>
+            <p class="src">Source: <a href="https://ar.iub.edu.bd/handle/11348/983" target="_blank" rel="noopener">IUB, PresCa study</a></p>
           </article>
         </div>
 
-        <ul class="mini-stats reveal">
-          <li><b>Fewer carers at home</b><span>Fewer people at home to care for elders (<a href="https://dspace.bracu.ac.bd/handle/10361/7733" target="_blank" rel="noopener">BRAC University</a>; <a href="https://ece.northsouth.edu/?p=3513" target="_blank" rel="noopener">NSU</a>).</span></li>
-          <li><b>60%+</b><span>may not take medicine on time (<a href="https://solve.mit.edu/solutions/13749" target="_blank" rel="noopener">TrueMed, MIT Solve</a>; the team's own claim).</span></li>
-        </ul>
+        <div class="opportunity reveal">
+          <div class="opportunity__head">
+            <p class="summary__label">The good news</p>
+            <h3>The phone to fix it is already in the house.</h3>
+          </div>
+          <div class="opportunity__bars">
+            <div class="bar-stat">
+              <p><b>89.6%</b> of people use a mobile phone</p>
+              <div class="bar"><span style="--w:89.6%"></span></div>
+            </div>
+            <div class="bar-stat">
+              <p><b>75.1%</b> of households have a smartphone</p>
+              <div class="bar"><span style="--w:75.1%"></span></div>
+            </div>
+            <div class="bar-stat">
+              <p><b class="amber">58.2%</b> have home internet — so we also plan <strong>SMS and phone-call reminders</strong></p>
+              <div class="bar bar--amber"><span style="--w:58.2%"></span></div>
+            </div>
+            <p class="src">Source: <a href="https://unb.com.bd/category/Bangladesh/mobile-phone-ownership-rises-bbs/195830" target="_blank" rel="noopener">BBS via UNB</a> · Elders are going digital: <a href="https://www.dhakatribune.com/business/343401/senior-citizens-in-bangladesh-are-embracing" target="_blank" rel="noopener">Dhaka Tribune</a>, <a href="https://www.samenacouncil.org/samena_daily_news?news=90201" target="_blank" rel="noopener">SAMENA</a></p>
+          </div>
+        </div>
 
         <!-- Cost chain -->
         <div class="chain reveal">
-          <p class="eyebrow">What one wrong dose can lead to</p>
-          <h3>Small mistakes at home <span class="hl hl--warn">grow into big costs for the family.</span></h3>
+          <h3>One small mistake at home <span class="hl hl--warn">can grow into a big cost.</span></h3>
           <ol class="chain__steps">
-            <li class="is-fixed"><span class="ic ic--amber"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 3-3 3M12 17h.01"/></svg></span><b>Confusion</b><small>Unreadable handwriting, many medicines, many timings</small><em>We fix this</em></li>
-            <li class="is-fixed"><span class="ic ic--coral"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M12 8v8M8 12h8"/></svg></span><b>Wrong or missed dose</b><small>A pill taken twice, a pill not taken at all</small><em>and this</em></li>
-            <li><span class="ic ic--rose"><svg viewBox="0 0 24 24"><path d="M19 14c1.5-1.5 3-3.2 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.8 0-3 .5-4.5 2-1.5-1.5-2.7-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4 3 5.5l7 7Z"/><path d="M3.2 12h4.3l1.5-3 3 6 1.5-3h7.3"/></svg></span><b>Health gets worse</b><small>Blood pressure, sugar or infection is not controlled</small></li>
-            <li><span class="ic ic--rose"><svg viewBox="0 0 24 24"><path d="M3 21V8l9-5 9 5v13zM12 10v6M9 13h6"/></svg></span><b>Doctor or hospital</b><small>Extra visits, tests and medicine costs</small></li>
-            <li><span class="ic ic--dark"><svg viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8m13 10v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></span><b>Family pays</b><small>Money, missed work and constant worry</small></li>
+            <li class="is-fixed"><span class="ic ic--amber"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 3-3 3M12 17h.01"/></svg></span><b>Confusion</b><small>Can't read the prescription</small></li>
+            <li class="is-fixed"><span class="ic ic--coral"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M12 8v8M8 12h8"/></svg></span><b>Wrong dose</b><small>Pill taken twice, or not at all</small></li>
+            <li><span class="ic ic--rose"><svg viewBox="0 0 24 24"><path d="M19 14c1.5-1.5 3-3.2 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.8 0-3 .5-4.5 2-1.5-1.5-2.7-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4 3 5.5l7 7Z"/><path d="M3.2 12h4.3l1.5-3 3 6 1.5-3h7.3"/></svg></span><b>Gets sicker</b><small>Sugar, pressure or infection out of control</small></li>
+            <li><span class="ic ic--rose"><svg viewBox="0 0 24 24"><path d="M3 21V8l9-5 9 5v13zM12 10v6M9 13h6"/></svg></span><b>Hospital</b><small>Extra visits, tests and costs</small></li>
+            <li><span class="ic ic--dark"><svg viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8m13 10v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></span><b>Family pays</b><small>Money, missed work, worry</small></li>
           </ol>
           <p class="callout">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg>
-            Our platform breaks the chain at the first two links, before anything goes wrong.
+            CareMind AI stops the problem at the first two steps — before anything goes wrong.
           </p>
         </div>
       </div>
     </section>
 
-    <!-- ============ SOLUTION ============ -->
-    <section class="section section--tint" id="solution">
+    <!-- ============ HOW IT WORKS ============ -->
+    <section class="section" id="how">
       <div class="container">
         <header class="section__head">
-          <p class="eyebrow">Three failures, three fixes</p>
-          <h2>Every failure in Rahima's day <span class="hl">has a matching fix.</span></h2>
-          <p class="section__lead">Rahima is an illustrative example. Each moment reflects a documented problem.</p>
+          <p class="eyebrow">2 · How it works</p>
+          <h2>From paper prescription to reminders <span class="hl">in four easy steps.</span></h2>
+          <p class="bn bn--head">কীভাবে কাজ করে?</p>
+          <p class="section__lead">No typing. No reading the doctor's handwriting.</p>
         </header>
 
+        <ol class="steps">
+          <li class="reveal"><span class="step__n">1</span><span class="step__ic"><svg viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg></span><b>Take a photo</b><p>Snap the prescription with the camera, or pick it from the gallery.</p><i class="tag tag--ok">Working</i></li>
+          <li class="reveal"><span class="step__n">2</span><span class="step__ic"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"/></svg></span><b>AI reads it</b><p>Medicine names, times (like 1-0-1), before/after food and days appear. You check and fix.</p><i class="tag tag--ok">Working</i></li>
+          <li class="reveal"><span class="step__n">3</span><span class="step__ic"><svg viewBox="0 0 24 24"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg></span><b>Get reminded</b><p>The phone rings at each dose. Tap <em>Taken</em> or <em>Missed</em>.</p><i class="tag tag--ok">Working</i></li>
+          <li class="reveal is-planned"><span class="step__n">4</span><span class="step__ic"><svg viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8m13 10v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></span><b>Family knows</b><p>Children and relatives see every dose and get an alert if one is missed.</p><i class="tag tag--plan">Coming soon</i></li>
+        </ol>
+
+        <h3 class="sub">Every worry has an answer</h3>
         <div class="fixes">
           <div class="fix reveal">
             <div class="fix__bad">
               <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg>
-              <div><b>"I can't read the prescription"</b><span>Handwriting, dose codes like 1-0-1, before or after food</span></div>
+              <div><b>"I can't read the prescription."</b><span>Messy handwriting and codes like 1-0-1</span></div>
             </div>
             <span class="fix__arrow" aria-hidden="true">→</span>
             <div class="fix__good">
               <svg viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
-              <div><b>AI reads it from one photo <i class="tag tag--ok">Working</i></b><span>Every medicine, time, food rule and duration, confirmed by the user</span></div>
+              <div><b>AI reads it from one photo</b><span>Every medicine, time and food rule — confirmed by you</span></div>
             </div>
           </div>
           <div class="fix reveal">
@@ -193,75 +221,67 @@
             <span class="fix__arrow" aria-hidden="true">→</span>
             <div class="fix__good">
               <svg viewBox="0 0 24 24"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>
-              <div><b>Reminder at the right time <i class="tag tag--ok">Working</i></b><span>Each dose is marked taken or missed, so there is no guessing</span></div>
+              <div><b>A reminder at the right time</b><span>Each dose is marked, so there is no guessing</span></div>
             </div>
           </div>
           <div class="fix reveal">
             <div class="fix__bad">
               <svg viewBox="0 0 24 24"><path d="M9.88 9.88a3 3 0 1 0 4.24 4.24M10.73 5.08A10.4 10.4 0 0 1 12 5c7 0 10 7 10 7a13 13 0 0 1-1.67 2.68M6.61 6.61A13.5 13.5 0 0 0 2 12s3 7 10 7a9.7 9.7 0 0 0 5.39-1.61M2 2l20 20"/></svg>
-              <div><b>"Yes, I took it" (but no one knows)</b><span>Family far away cannot see what really happened</span></div>
+              <div><b>"Yes, I took it." (but no one knows)</b><span>Family living far away cannot check</span></div>
             </div>
             <span class="fix__arrow" aria-hidden="true">→</span>
             <div class="fix__good">
               <svg viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8m13 10v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-              <div><b>Family sees every dose <i class="tag tag--plan">Planned</i></b><span>Alert when a dose is missed, even by SMS or voice call</span></div>
+              <div><b>Family sees every dose <i class="tag tag--plan">Coming soon</i></b><span>Alert when a dose is missed, even by SMS or phone call</span></div>
             </div>
           </div>
         </div>
 
-        <!-- How it works -->
-        <div class="how" id="how">
-          <p class="eyebrow">How it works</p>
-          <h3>From paper prescription to daily reminders <span class="hl">in four steps.</span></h3>
-          <ol class="steps">
-            <li class="reveal"><span class="step__n">1</span><span class="step__ic"><svg viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg></span><b>Scan</b><p>Take one photo of the handwritten prescription — camera or gallery.</p></li>
-            <li class="reveal"><span class="step__n">2</span><span class="step__ic"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"/></svg></span><b>AI reads, you confirm</b><p>Medicines, 1-0-1 pattern, food timing and days appear. Check and edit.</p></li>
-            <li class="reveal"><span class="step__n">3</span><span class="step__ic"><svg viewBox="0 0 24 24"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg></span><b>Remind</b><p>The phone rings at each dose. Tap taken or missed.</p></li>
-            <li class="reveal is-planned"><span class="step__n">4</span><span class="step__ic"><svg viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8m13 10v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></span><b>Family knows <i class="tag tag--plan">Planned</i></b><p>Relatives see taken and missed doses and get alerts.</p></li>
-          </ol>
-          <p class="how__note">No typing. No reading the doctor's handwriting. <strong>Steps 1–3 already work in our prototype.</strong></p>
-        </div>
-
         <div class="planned reveal">
           <div>
-            <h4>Know the medicine</h4>
-            <p>A plain Bangla page on use, side effects, interactions and price. <i class="tag tag--plan">Planned</i></p>
+            <span class="planned__ic"><svg viewBox="0 0 24 24"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg></span>
+            <h4>Know your medicine</h4>
+            <p>A simple Bangla page for each medicine: what it is for, side effects and price.</p>
           </div>
           <div>
-            <h4>Elder-friendly design</h4>
-            <p>Large buttons, few steps, Bangla labels and voice input.</p>
+            <span class="planned__ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01"/></svg></span>
+            <h4>Easy for elders</h4>
+            <p>Big buttons, few steps, Bangla labels and voice input.</p>
           </div>
           <div>
+            <span class="planned__ic"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92"/></svg></span>
             <h4>Works without internet</h4>
-            <p>SMS and voice-call reminder fallback for homes without data. <i class="tag tag--plan">Planned</i></p>
+            <p>SMS and phone-call reminders for homes without data.</p>
           </div>
         </div>
-        <p class="disclaimer">The platform supports medication routines; it does not replace a doctor.</p>
+        <p class="disclaimer">CareMind AI helps people follow their medicine routine. It does not replace a doctor.</p>
       </div>
     </section>
 
     <!-- ============ APP ============ -->
-    <section class="section" id="app">
+    <section class="section section--tint" id="app">
       <div class="container">
         <header class="section__head">
-          <p class="eyebrow">Prototype status</p>
-          <h2>The hardest part — <span class="hl">reading handwritten prescriptions — already works.</span></h2>
-          <p class="section__lead">Real screens from the working Android prototype, with a Bangla-first interface (বাংলা / English).</p>
+          <p class="eyebrow">3 · The app</p>
+          <h2>A real, working app — <span class="hl">in Bangla and English.</span></h2>
+          <p class="bn bn--head">অ্যাপটি দেখুন</p>
+          <p class="section__lead">These are real screens from our Android app. The hardest part — reading handwritten prescriptions — already works.</p>
         </header>
 
-        <div class="gallery" id="gallery" tabindex="0" aria-label="App screenshots, scroll horizontally">
-          <figure><div class="phone"><img src="assets/img/screens/onboard-reminders.webp" alt="Onboarding: no dose will be missed again" loading="lazy" width="540" height="1200"></div><figcaption>Never miss a dose</figcaption></figure>
-          <figure><div class="phone"><img src="assets/img/screens/onboard-family.webp" alt="Onboarding: take care of your family" loading="lazy" width="540" height="1200"></div><figcaption>Care for your family</figcaption></figure>
-          <figure><div class="phone"><img src="assets/img/screens/onboard-scan.webp" alt="Onboarding: scan any prescription" loading="lazy" width="540" height="1200"></div><figcaption>Scan any prescription</figcaption></figure>
-          <figure><div class="phone"><img src="assets/img/screens/home.webp" alt="Home screen with today's dose progress" loading="lazy" width="540" height="1200"></div><figcaption>Today's medicines</figcaption></figure>
-          <figure><div class="phone"><img src="assets/img/screens/scan.webp" alt="Scan screen with camera and gallery options" loading="lazy" width="540" height="1200"></div><figcaption>Scan: camera or gallery</figcaption></figure>
-          <figure><div class="phone"><img src="assets/img/screens/prescriptions.webp" alt="My prescriptions list with manual entry" loading="lazy" width="540" height="1200"></div><figcaption>Prescriptions &amp; manual entry</figcaption></figure>
-          <figure><div class="phone"><img src="assets/img/screens/family-add.webp" alt="Add a family member by email" loading="lazy" width="540" height="1200"></div><figcaption>Add a family member</figcaption></figure>
-          <figure><div class="phone"><img src="assets/img/screens/family-connected.webp" alt="Connected family members" loading="lazy" width="540" height="1200"></div><figcaption>Connected family</figcaption></figure>
-          <figure><div class="phone"><img src="assets/img/screens/family-requests.webp" alt="Pending family requests" loading="lazy" width="540" height="1200"></div><figcaption>Family requests</figcaption></figure>
+        <div class="gallery" id="gallery" tabindex="0" aria-label="App screenshots, scroll sideways">
+          <figure><div class="phone"><img src="assets/img/screens/onboard-reminders.webp" alt="Welcome screen: no dose will be missed again" loading="lazy" width="540" height="1200"></div><figcaption><b>Welcome</b><span>"No dose will be missed"</span></figcaption></figure>
+          <figure><div class="phone"><img src="assets/img/screens/home.webp" alt="Home screen showing today's dose progress" loading="lazy" width="540" height="1200"></div><figcaption><b>Home</b><span>Today's medicines at a glance</span></figcaption></figure>
+          <figure><div class="phone"><img src="assets/img/screens/scan.webp" alt="Scan screen with camera and gallery buttons" loading="lazy" width="540" height="1200"></div><figcaption><b>Scan</b><span>Camera or gallery</span></figcaption></figure>
+          <figure><div class="phone"><img src="assets/img/screens/prescriptions.webp" alt="My prescriptions list with manual entry button" loading="lazy" width="540" height="1200"></div><figcaption><b>Prescriptions</b><span>Saved list, or add by hand</span></figcaption></figure>
+          <figure><div class="phone"><img src="assets/img/screens/onboard-family.webp" alt="Welcome screen: take care of your family" loading="lazy" width="540" height="1200"></div><figcaption><b>Family care</b><span>Look after your parents</span></figcaption></figure>
+          <figure><div class="phone"><img src="assets/img/screens/family-add.webp" alt="Add a family member by email" loading="lazy" width="540" height="1200"></div><figcaption><b>Add family</b><span>Connect by email</span></figcaption></figure>
+          <figure><div class="phone"><img src="assets/img/screens/family-connected.webp" alt="Connected family members list" loading="lazy" width="540" height="1200"></div><figcaption><b>Connected</b><span>Your family circle</span></figcaption></figure>
+          <figure><div class="phone"><img src="assets/img/screens/family-requests.webp" alt="Pending family requests" loading="lazy" width="540" height="1200"></div><figcaption><b>Requests</b><span>Accept family invites</span></figcaption></figure>
+          <figure><div class="phone"><img src="assets/img/screens/onboard-scan.webp" alt="Welcome screen: scan any prescription" loading="lazy" width="540" height="1200"></div><figcaption><b>Any prescription</b><span>Even handwritten ones</span></figcaption></figure>
         </div>
         <div class="gallery__nav">
           <button class="icon-btn" data-dir="-1" aria-label="Previous screenshots">←</button>
+          <span class="gallery__hint">Swipe or use the arrows to see more</span>
           <button class="icon-btn" data-dir="1" aria-label="Next screenshots">→</button>
         </div>
 
@@ -271,91 +291,93 @@
               <circle cx="60" cy="60" r="52" class="track"/>
               <circle cx="60" cy="60" r="52" class="fill" style="--p:0.636"/>
             </svg>
-            <p><b>7<small>/11</small></b><span>capabilities working</span></p>
+            <p><b>7<small>/11</small></b><span>features ready</span></p>
           </div>
-          <ul class="cap__list">
-            <li class="ok">Prescription scan (camera / gallery)</li>
-            <li class="ok">AI reading of handwritten prescriptions</li>
-            <li class="ok">Review &amp; edit every field</li>
-            <li class="ok">Manual medicine entry</li>
-            <li class="ok">Daily dose reminders</li>
-            <li class="ok">Taken / missed dose log</li>
-            <li class="ok">Bangla &amp; English interface</li>
-            <li class="plan">Family view &amp; missed-dose alerts</li>
-            <li class="plan">SMS &amp; voice-call reminders</li>
-            <li class="plan">Bangla medicine information</li>
-            <li class="plan">Pharmacist accuracy check</li>
-          </ul>
+          <div class="cap__cols">
+            <div>
+              <h4 class="cap__title cap__title--ok">Ready now</h4>
+              <ul class="cap__list">
+                <li class="ok">Scan prescription (camera / gallery)</li>
+                <li class="ok">AI reads handwriting</li>
+                <li class="ok">Check and edit every detail</li>
+                <li class="ok">Add medicine by hand</li>
+                <li class="ok">Daily dose reminders</li>
+                <li class="ok">Taken / missed history</li>
+                <li class="ok">Bangla &amp; English</li>
+              </ul>
+            </div>
+            <div>
+              <h4 class="cap__title">Coming next</h4>
+              <ul class="cap__list">
+                <li class="plan">Family view &amp; missed-dose alerts</li>
+                <li class="plan">SMS &amp; phone-call reminders</li>
+                <li class="plan">Bangla medicine information</li>
+                <li class="plan">Pharmacist accuracy check</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- ============ MARKET ============ -->
-    <section class="section section--tint" id="market">
+    <!-- ============ WHY US ============ -->
+    <section class="section" id="why">
       <div class="container">
         <header class="section__head">
-          <p class="eyebrow">Gap analysis</p>
-          <h2>Others cover one or two pieces. <span class="hl">We are building all five.</span></h2>
-          <p class="section__lead">Each local app covers one piece; none combines scan, family view and Bangla medicine info.</p>
+          <p class="eyebrow">4 · Why us</p>
+          <h2>Other apps do one or two things. <span class="hl">We bring all five together.</span></h2>
+          <p class="bn bn--head">আমরা কেন আলাদা?</p>
+          <p class="section__lead">We compared the most popular medicine apps in Bangladesh and abroad.</p>
         </header>
 
         <div class="table-wrap reveal">
           <table class="matrix">
             <thead>
-              <tr><th scope="col">Capability</th><th scope="col">Patient Aid</th><th scope="col">DigiCure</th><th scope="col">Medisafe</th><th scope="col">Scan apps</th><th scope="col">PresCa</th><th scope="col" class="us">CareMind AI</th></tr>
+              <tr><th scope="col">What it can do</th><th scope="col">Patient Aid</th><th scope="col">DigiCure</th><th scope="col">Medisafe</th><th scope="col">Scan apps</th><th scope="col">PresCa</th><th scope="col" class="us">CareMind AI</th></tr>
             </thead>
             <tbody>
-              <tr><th scope="row">Medicine reminder</th><td><i class="m m--y" title="Yes"></i></td><td><i class="m m--y" title="Yes"></i></td><td><i class="m m--y" title="Yes"></i></td><td><i class="m m--y" title="Yes"></i></td><td><i class="m m--h" title="Partial"></i></td><td class="us"><i class="m m--y" title="Working"></i></td></tr>
-              <tr><th scope="row">Scan handwritten prescription</th><td><i class="m m--n" title="Not listed"></i></td><td><i class="m m--n" title="Not listed"></i></td><td><i class="m m--n" title="Not listed"></i></td><td><i class="m m--h" title="Printed labels only"></i></td><td><i class="m m--h" title="Prototype"></i></td><td class="us"><i class="m m--y" title="Working"></i></td></tr>
-              <tr><th scope="row">Family sees taken / missed doses</th><td><i class="m m--n"></i></td><td><i class="m m--n"></i></td><td><i class="m m--y"></i></td><td><i class="m m--n"></i></td><td><i class="m m--n"></i></td><td class="us"><i class="m m--p" title="Planned"></i></td></tr>
-              <tr><th scope="row">Bangla medicine details</th><td><i class="m m--y"></i></td><td><i class="m m--n"></i></td><td><i class="m m--n"></i></td><td><i class="m m--n"></i></td><td><i class="m m--n"></i></td><td class="us"><i class="m m--p" title="Planned"></i></td></tr>
-              <tr><th scope="row">SMS or voice-call fallback</th><td><i class="m m--n"></i></td><td><i class="m m--n"></i></td><td><i class="m m--n"></i></td><td><i class="m m--n"></i></td><td><i class="m m--n"></i></td><td class="us"><i class="m m--p" title="Planned"></i></td></tr>
-            </tbody>
-          </table>
-          <ul class="legend">
-            <li><i class="m m--y"></i>Yes / working</li>
-            <li><i class="m m--h"></i>Partial (printed labels only, or prototype)</li>
-            <li><i class="m m--p"></i>Planned</li>
-            <li><i class="m m--n"></i>Not listed publicly</li>
-          </ul>
-        </div>
-
-        <h3 class="sub">Bangladesh landscape</h3>
-        <div class="table-wrap reveal">
-          <table class="plain">
-            <thead><tr><th>Platform</th><th>Status</th><th>Offers</th><th>Missing</th></tr></thead>
-            <tbody>
-              <tr><td><a href="https://apkcombo.com/patient-aid/com.itmedicus.patientaid/" target="_blank" rel="noopener">Patient Aid</a></td><td>Live, 1M+ installs</td><td>Bangla medicine database, reminder</td><td>Family view, scan</td></tr>
-              <tr><td><a href="https://apps.apple.com/us/app/id1499378347" target="_blank" rel="noopener">DigiCure BD (Robi)</a></td><td>Live, diabetes only</td><td>Reminders, glucose/BP, monitoring</td><td>Other diseases, family view</td></tr>
-              <tr><td><a href="https://apps.apple.com/us/app/id1605745544" target="_blank" rel="noopener">Arogga</a></td><td>Live pharmacy</td><td>Order medicine by prescription</td><td>Dose reminders</td></tr>
-              <tr><td><a href="https://apps.apple.com/us/app/neeramoy-patient/id6478592548" target="_blank" rel="noopener">Neeramoy</a></td><td>Live</td><td>Doctor booking, telemedicine</td><td>Adherence tracking</td></tr>
-              <tr><td><a href="https://ar.iub.edu.bd/handle/11348/983" target="_blank" rel="noopener">PresCa (IUB)</a></td><td>Academic prototype</td><td>Handwritten scan, reminders</td><td>Released product, family view</td></tr>
-              <tr><td><a href="https://solve.mit.edu/solutions/13749" target="_blank" rel="noopener">TrueMed</a></td><td>MIT Solve proposal</td><td>Reminders, pharmacist advice</td><td>Live product</td></tr>
-              <tr><td><a href="https://solve.mit.edu/solutions/86877" target="_blank" rel="noopener">MedPunctual</a></td><td>MIT Solve proposal</td><td>Smart pill box, caregiver alerts</td><td>Software-only option, scan</td></tr>
-              <tr><td><a href="https://ieeexplore.ieee.org/document/10170060" target="_blank" rel="noopener">Renaissance</a></td><td>IEEE paper</td><td>Senior app, reminder, family contact</td><td>Public availability</td></tr>
+              <tr><th scope="row">Medicine reminder</th><td><i class="m m--y">Yes</i></td><td><i class="m m--y">Yes</i></td><td><i class="m m--y">Yes</i></td><td><i class="m m--y">Yes</i></td><td><i class="m m--h">Partly</i></td><td class="us"><i class="m m--y">Yes</i></td></tr>
+              <tr><th scope="row">Read handwritten prescription</th><td><i class="m m--n">No</i></td><td><i class="m m--n">No</i></td><td><i class="m m--n">No</i></td><td><i class="m m--h">Printed only</i></td><td><i class="m m--h">Prototype</i></td><td class="us"><i class="m m--y">Yes</i></td></tr>
+              <tr><th scope="row">Family sees doses</th><td><i class="m m--n">No</i></td><td><i class="m m--n">No</i></td><td><i class="m m--y">Yes</i></td><td><i class="m m--n">No</i></td><td><i class="m m--n">No</i></td><td class="us"><i class="m m--p">Soon</i></td></tr>
+              <tr><th scope="row">Bangla medicine info</th><td><i class="m m--y">Yes</i></td><td><i class="m m--n">No</i></td><td><i class="m m--n">No</i></td><td><i class="m m--n">No</i></td><td><i class="m m--n">No</i></td><td class="us"><i class="m m--p">Soon</i></td></tr>
+              <tr><th scope="row">SMS / phone-call reminder</th><td><i class="m m--n">No</i></td><td><i class="m m--n">No</i></td><td><i class="m m--n">No</i></td><td><i class="m m--n">No</i></td><td><i class="m m--n">No</i></td><td class="us"><i class="m m--p">Soon</i></td></tr>
             </tbody>
           </table>
         </div>
-        <p class="note">From public listings and papers, 11 October 2026. "Missing" / "Not listed" = not found in the public description we read, not confirmed absent.</p>
+        <p class="note">"No" means we did not find it in the app's public description (checked 11 October 2026). Scan apps = MedSnap, GoodPill, RxScan.</p>
 
-        <div class="global reveal">
-          <h3 class="sub">Global competitors</h3>
-          <ul>
-            <li><a href="https://medisafe.com/family-caregiving-made-easy-medisafe/" target="_blank" rel="noopener">Medisafe</a>: family alerts work; <strong>71%</strong> of non-adherent users improved (<a href="https://www.medisafe.com/the-value-of-a-medfriend/" target="_blank" rel="noopener">company study</a>).</li>
-            <li><a href="https://marlvel.ai/api/llm/apps/medical/encodebox-medsnap" target="_blank" rel="noopener">MedSnap</a>, <a href="https://marlvel.ai/api/llm/apps/health-fitness/goodpill-medicine-reminder" target="_blank" rel="noopener">GoodPill</a>, <a href="https://apps.apple.com/us/app/rxscan/id6778699478" target="_blank" rel="noopener">RxScan</a>: read printed labels only, not handwritten Bangladeshi prescriptions.</li>
-            <li><a href="https://arxiv.org/html/2312.06841v1" target="_blank" rel="noopener">memorAIs</a>: research shows the scan-to-reminder approach works.</li>
-          </ul>
-        </div>
+        <details class="more reveal">
+          <summary>See all the apps we compared</summary>
+          <div class="table-wrap">
+            <table class="plain">
+              <thead><tr><th>App</th><th>Status</th><th>What it offers</th><th>What it is missing</th></tr></thead>
+              <tbody>
+                <tr><td><a href="https://apkcombo.com/patient-aid/com.itmedicus.patientaid/" target="_blank" rel="noopener">Patient Aid</a></td><td>Live, 1M+ installs</td><td>Bangla medicine database, reminder</td><td>Family view, scan</td></tr>
+                <tr><td><a href="https://apps.apple.com/us/app/id1499378347" target="_blank" rel="noopener">DigiCure BD (Robi)</a></td><td>Live, diabetes only</td><td>Reminders, glucose/BP, monitoring</td><td>Other diseases, family view</td></tr>
+                <tr><td><a href="https://apps.apple.com/us/app/id1605745544" target="_blank" rel="noopener">Arogga</a></td><td>Live pharmacy</td><td>Order medicine by prescription</td><td>Dose reminders</td></tr>
+                <tr><td><a href="https://apps.apple.com/us/app/neeramoy-patient/id6478592548" target="_blank" rel="noopener">Neeramoy</a></td><td>Live</td><td>Doctor booking, telemedicine</td><td>Dose tracking</td></tr>
+                <tr><td><a href="https://ar.iub.edu.bd/handle/11348/983" target="_blank" rel="noopener">PresCa (IUB)</a></td><td>Academic prototype</td><td>Handwritten scan, reminders</td><td>Released product, family view</td></tr>
+                <tr><td><a href="https://solve.mit.edu/solutions/13749" target="_blank" rel="noopener">TrueMed</a></td><td>MIT Solve proposal</td><td>Reminders, pharmacist advice</td><td>Live product</td></tr>
+                <tr><td><a href="https://solve.mit.edu/solutions/86877" target="_blank" rel="noopener">MedPunctual</a></td><td>MIT Solve proposal</td><td>Smart pill box, caregiver alerts</td><td>Software-only option, scan</td></tr>
+                <tr><td><a href="https://ieeexplore.ieee.org/document/10170060" target="_blank" rel="noopener">Renaissance</a></td><td>IEEE paper</td><td>Senior app, reminder, family contact</td><td>Public availability</td></tr>
+                <tr><td><a href="https://medisafe.com/family-caregiving-made-easy-medisafe/" target="_blank" rel="noopener">Medisafe</a> (global)</td><td>Live</td><td>Family alerts; 71% of users improved (<a href="https://www.medisafe.com/the-value-of-a-medfriend/" target="_blank" rel="noopener">company study</a>)</td><td>Handwritten scan, Bangla</td></tr>
+                <tr><td><a href="https://marlvel.ai/api/llm/apps/medical/encodebox-medsnap" target="_blank" rel="noopener">MedSnap</a>, <a href="https://marlvel.ai/api/llm/apps/health-fitness/goodpill-medicine-reminder" target="_blank" rel="noopener">GoodPill</a>, <a href="https://apps.apple.com/us/app/rxscan/id6778699478" target="_blank" rel="noopener">RxScan</a> (global)</td><td>Live</td><td>Read printed medicine labels</td><td>Handwritten Bangladeshi prescriptions</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="note">Research (<a href="https://arxiv.org/html/2312.06841v1" target="_blank" rel="noopener">memorAIs</a>) shows the photo-to-reminder idea works.</p>
+        </details>
       </div>
     </section>
 
-    <!-- ============ RISKS + IMPACT ============ -->
-    <section class="section" id="impact">
+    <!-- ============ IMPACT + SAFETY ============ -->
+    <section class="section section--tint" id="impact">
       <div class="container">
         <header class="section__head">
-          <p class="eyebrow">The change we want to make</p>
+          <p class="eyebrow">5 · The difference</p>
           <h2>Rahima's day, <span class="hl">before and after.</span></h2>
-          <p class="section__lead">Better adherence, fewer medication errors, and peace of mind for families.</p>
+          <p class="bn bn--head">রহিমার দিন — আগে ও পরে</p>
+          <p class="section__lead">Rahima is an example of a typical elderly patient taking 5 medicines a day.</p>
         </header>
 
         <div class="compare">
@@ -363,82 +385,83 @@
             <h3><svg viewBox="0 0 24 24"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3M12 9v4M12 17h.01"/></svg> Today</h3>
             <ul>
               <li>Guesses what the doctor wrote</li>
-              <li>Relies on memory for 5 medicines a day</li>
-              <li>Doubles some doses, misses others</li>
-              <li>Family hears "Yes, I took it" and hopes it's true</li>
-              <li>Problems show up only at the hospital</li>
+              <li>Remembers 5 medicines a day by memory</li>
+              <li>Takes some doses twice, misses others</li>
+              <li>Family hears "Yes, I took it" and just hopes</li>
+              <li>Problems are found only at the hospital</li>
             </ul>
           </div>
           <div class="compare__col compare__col--after reveal">
             <h3><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg> With CareMind AI</h3>
             <ul>
-              <li>One photo turns the prescription into a clear schedule</li>
+              <li>One photo turns the prescription into a clear plan</li>
               <li>The phone reminds her at every dose, in Bangla</li>
-              <li>Each dose is marked, so no doubling, no guessing</li>
-              <li>Family sees the truth and is alerted if a dose is missed</li>
-              <li>Problems are caught at home, early</li>
+              <li>Each dose is marked — no doubling, no guessing</li>
+              <li>Family sees the truth and gets an alert if she misses one</li>
+              <li>Problems are caught early, at home</li>
             </ul>
           </div>
         </div>
-        <p class="note center">"With CareMind AI" includes planned features: Bangla reminders and the family view.</p>
 
-        <h3 class="sub">Risks and mitigation</h3>
+        <h3 class="sub">Safe and trustworthy <span class="bn bn--inline">নিরাপত্তা ও বিশ্বাস</span></h3>
         <div class="risks">
           <article class="risk reveal">
             <span class="risk__ic"><svg viewBox="0 0 24 24"><path d="M5 12.55a11 11 0 0 1 14.08 0M1.42 9a16 16 0 0 1 21.16 0M8.53 16.11a6 6 0 0 1 6.95 0M12 20h.01"/><path d="M2 2l20 20"/></svg></span>
-            <h4>Elders with weak internet</h4>
-            <p>SMS and voice-call reminders; a relative can set up and monitor.</p>
+            <p class="risk__q">What if there is no internet?</p>
+            <p>SMS and phone-call reminders. A son or daughter can set it up and check from far away.</p>
           </article>
           <article class="risk reveal">
             <span class="risk__ic"><svg viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></span>
-            <h4>AI misreads a dose</h4>
-            <p>User confirms every field (already built); optional pharmacist check.</p>
+            <p class="risk__q">What if the AI reads it wrong?</p>
+            <p>You check and confirm every detail before saving (already built). A pharmacist check is planned.</p>
           </article>
           <article class="risk reveal">
             <span class="risk__ic"><svg viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></span>
-            <h4>Health data privacy</h4>
-            <p>Consent per family member, minimal data, encryption, revoke anytime.</p>
+            <p class="risk__q">Is my health data private?</p>
+            <p>Each family member must give permission. We keep minimal data, encrypt it, and you can remove access anytime.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- ============ ROADMAP ============ -->
-    <section class="section section--tint" id="roadmap">
+    <!-- ============ PLAN ============ -->
+    <section class="section" id="plan">
       <div class="container">
         <header class="section__head">
-          <p class="eyebrow">Next steps</p>
-          <h2>From prototype <span class="hl">to pilot.</span></h2>
+          <p class="eyebrow">6 · Our plan</p>
+          <h2>From prototype <span class="hl">to real families.</span></h2>
+          <p class="bn bn--head">আমাদের পরিকল্পনা</p>
         </header>
         <ol class="timeline">
           <li class="done reveal">
             <span class="tl__dot"></span>
-            <p class="tl__tag">Done</p>
+            <p class="tl__tag">✓ Done</p>
             <h3>Working prototype</h3>
-            <ul><li>Prescription scan and AI reading</li><li>Review and edit</li><li>Daily reminders, taken / missed log</li></ul>
+            <ul><li>Prescription scan and AI reading</li><li>Check and edit</li><li>Daily reminders, taken / missed log</li></ul>
           </li>
           <li class="next reveal">
             <span class="tl__dot"></span>
             <p class="tl__tag">Next</p>
             <h3>Build for families</h3>
-            <ul><li>Family view and missed-dose alerts</li><li>Bangla SMS and voice-call reminders</li><li>Bangla medicine information</li></ul>
+            <ul><li>Family view and missed-dose alerts</li><li>Bangla SMS and phone-call reminders</li><li>Bangla medicine information</li></ul>
           </li>
           <li class="then reveal">
             <span class="tl__dot"></span>
             <p class="tl__tag">Then</p>
-            <h3>Pilot and prove</h3>
-            <ul><li>Pilot with elderly users and caregivers</li><li>Test OCR on many real Bangladeshi prescriptions</li><li>Pharmacist review of accuracy</li></ul>
+            <h3>Test with real users</h3>
+            <ul><li>Pilot with elderly users and caregivers</li><li>Test on many real Bangladeshi prescriptions</li><li>Pharmacist checks accuracy</li></ul>
           </li>
         </ol>
       </div>
     </section>
 
     <!-- ============ TEAM ============ -->
-    <section class="section" id="team">
+    <section class="section section--tint" id="team">
       <div class="container">
         <header class="section__head">
-          <p class="eyebrow">The team</p>
-          <h2>Built at <span class="hl">American International University-Bangladesh.</span></h2>
+          <p class="eyebrow">7 · The team</p>
+          <h2>Built by students of <span class="hl">American International University-Bangladesh.</span></h2>
+          <p class="bn bn--head">আমাদের টিম</p>
           <p class="section__lead">Department of Computer Science, Faculty of Science and Technology, AIUB.</p>
         </header>
 
@@ -447,16 +470,16 @@
           <div>
             <p class="eyebrow">Supervisor</p>
             <h3>Dr. Mohammad Saef Ullah Miah</h3>
-            <p>Associate Professor, Department of Computer Science · Director, Faculty of Science and Technology, AIUB</p>
+            <p>Associate Professor, Department of Computer Science<br>Director, Faculty of Science and Technology, AIUB</p>
           </div>
         </article>
 
         <ul class="team">
-          <li class="reveal"><span class="avatar" style="--h:160">SM</span><b>Sk. Muktadir Hossain</b><span>Team Lead</span><a href="mailto:muktadir@aiub.edu">muktadir@aiub.edu</a></li>
-          <li class="reveal"><span class="avatar" style="--h:15">MS</span><b>Mahmudul Haque Shakir</b><span>Team Member</span></li>
-          <li class="reveal"><span class="avatar" style="--h:215">SR</span><b>Shovan Roy</b><span>Team Member</span></li>
-          <li class="reveal"><span class="avatar" style="--h:340">RD</span><b>Riya Das</b><span>Team Member</span></li>
-          <li class="reveal"><span class="avatar" style="--h:40">RR</span><b>Rahat Rihan</b><span>Team Member</span></li>
+          <li class="reveal team__lead"><img src="assets/img/team/muktadir.webp" alt="Sk. Muktadir Hossain" width="400" height="400" loading="lazy"><b>Sk. Muktadir Hossain</b><span class="team__role">Team Lead</span><span>MSc in CS</span><a href="mailto:muktadir@aiub.edu">muktadir@aiub.edu</a></li>
+          <li class="reveal"><img src="assets/img/team/shakir.webp" alt="Mahmudul Haque Shakir" width="400" height="400" loading="lazy"><b>Mahmudul Haque Shakir</b><span class="team__role">Team Member</span><span>BSc in CSE</span></li>
+          <li class="reveal"><img src="assets/img/team/riya.webp" alt="Riya Das" width="400" height="400" loading="lazy"><b>Riya Das</b><span class="team__role">Team Member</span><span>BSc in CSE</span></li>
+          <li class="reveal"><img src="assets/img/team/shovan.webp" alt="Shovan Roy" width="400" height="400" loading="lazy"><b>Shovan Roy</b><span class="team__role">Team Member</span><span>BSc in CSE</span></li>
+          <li class="reveal"><img src="assets/img/team/rahat.webp" alt="Rahat Rihan" width="400" height="400" loading="lazy"><b>Rahat Rihan</b><span class="team__role">Team Member</span><span>MSc in CS</span></li>
         </ul>
       </div>
     </section>
@@ -465,22 +488,23 @@
     <section class="download" id="download">
       <div class="container download__inner">
         <div>
-          <p class="eyebrow eyebrow--light">Try the prototype</p>
+          <p class="eyebrow eyebrow--light">Try it yourself</p>
           <h2>Download CareMind AI for Android</h2>
-          <p>Install the working prototype on your Android phone. It is a research prototype for demonstration — please do not rely on it for real medical decisions yet.</p>
+          <p class="bn bn--light">অ্যাপটি ডাউনলোড করুন</p>
+          <p>Install the working prototype on your Android phone. It is a student research prototype for demonstration — please do not use it for real medical decisions yet.</p>
           <div class="hero__actions">
             <a class="btn btn--light" id="apkLink" href="https://github.com/CareMindAI/home/releases/latest/download/CareMindAI.apk">
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M5 21h14"/></svg>
               Download APK
             </a>
-            <a class="btn btn--outline-light" href="https://github.com/CareMindAI/home/releases" target="_blank" rel="noopener">All releases</a>
+            <a class="btn btn--outline-light" href="https://github.com/CareMindAI/home/releases" target="_blank" rel="noopener">All versions</a>
           </div>
         </div>
         <ol class="install">
           <li><b>Download</b> the APK file on your Android phone.</li>
-          <li><b>Open</b> it and allow <em>"Install unknown apps"</em> for your browser when asked.</li>
+          <li><b>Open</b> it. If asked, allow <em>"Install unknown apps"</em>.</li>
           <li><b>Install</b> and open CareMind AI. Choose বাংলা or English.</li>
-          <li><b>Scan</b> a prescription and confirm the medicines.</li>
+          <li><b>Scan</b> a prescription and check the medicines.</li>
         </ol>
       </div>
     </section>
@@ -503,9 +527,9 @@
       <div>
         <h4>Project</h4>
         <a href="#problem">Problem</a>
-        <a href="#solution">Solution</a>
+        <a href="#how">How it works</a>
         <a href="#app">App</a>
-        <a href="#roadmap">Roadmap</a>
+        <a href="#plan">Plan</a>
       </div>
       <div>
         <h4>Contact</h4>
@@ -515,7 +539,7 @@
       </div>
     </div>
     <div class="container footer__fine">
-      <p>CareMind AI supports medication routines; it does not replace a doctor. Statistics are the sources' own claims, accessed 11–15 October 2026.</p>
+      <p>CareMind AI helps with medicine routines; it does not replace a doctor. Statistics are the sources' own claims, checked 11–15 October 2026.</p>
       <p>© <span id="year">2026</span> CareMind AI Team, AIUB.</p>
     </div>
   </footer>
